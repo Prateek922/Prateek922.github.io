@@ -13,12 +13,13 @@
 	font-size: 17px;
     letter-spacing: 3px;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 0rem;
     text-transform: capitalize;
     color: #fff;
     font-weight: 500;
     align-items: left;
     line-height: 3em;
+    
 }
 
 html::-webkit-scrollbar-track {
@@ -8640,7 +8641,7 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .ml-4,
@@ -11843,14 +11844,20 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 2em 0;
   position: relative;
+  
+}
+#about-section {
+  padding: 7em 0px;
+  margin-bottom:65px;
 }
 @media (max-width: 767.98px) {
   .ftco-section {
     padding: 6em 0;
   }
 }
+
 
 .ftco-no-pt {
   padding-top: 0 !important;
@@ -12020,11 +12027,12 @@ textarea.form-control {
 }
 .heading-section h1.big.big-2 {
   right: 0;
+
 }
 .heading-section h2 {
   font-size: 50px;
   font-weight: 700;
-}
+}       
 .heading-section h2 span {
   font-weight: 400;
 }
